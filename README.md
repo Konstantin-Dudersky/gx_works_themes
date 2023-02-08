@@ -42,4 +42,18 @@ Developer: Inspect Editor Tokens and Scopes
 | Backgrounds in Highlighting Matching Brackets |                             |
 | Track Changes                                 |                             |
 | Highlight Incremental Search                  |                             |
+|                                               |                             |
+| **Label Editor Common**                       |                             |
+| Normal Text                                   | editor.foreground           |
+| Normal Background                             | editor.background           |
+| Error                                         | editorError.foreground      |
+| Grid                                          | editorInlayHint.foreground  |
+| Detailed Setting (Not Set)                    |                             |
+| Detailed Setting (Already Set)                |                             |
+|                                               |                             |
+| **Navigation**                                |                             |
+| Normal Text                                   | sideBar.foreground          |
+| Normal Background                             | sideBar.background          |
+| Uncovered Text                                | editorError.foreground      |
+| Unused Text                                   | editorWarning.foreground    |
 
