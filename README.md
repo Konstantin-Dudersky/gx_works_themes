@@ -16,10 +16,37 @@ Developer: Inspect Editor Tokens and Scopes
 
 Описание цветов - https://code.visualstudio.com/api/references/theme-color#editor-colors
 
+## Соответствие цветов GX Works 2
+
+| GX Works                  | VS Code                    |
+| ------------------------- | -------------------------- |
+|                           |                            |
+| **ST Editor**             |                            |
+| Normal Text               | editor.foreground          |
+| Normal Background         | editor.background          |
+| Monitor Value             | debugTokenExpression.value |
+| Error                     | editorError.foreground     |
+| Jump Destination          |                            |
+| Syntax                    | token - keyword.control    |
+| Operator                  | token - keyword.operator   |
+| Comment                   | token - comment text       |
+| Constant                  | token - constant           |
+| Character String Constant | token - "string"           |
+| Device                    |                            |
+| Global Label              | editor.foreground          |
+| Local Label               | editor.foreground          |
+|                           |                            |
+|                           |                            |
+|                           |                            |
+|                           |                            |
+
+
+
 ## Соответствие цветов GX Works 3
 
 | GX Works                                      | VS Code                     |
 | --------------------------------------------- | --------------------------- |
+|                                               |                             |
 | **ST Editor**                                 |                             |
 | Normal Text                                   | editor.foreground           |
 | Normal Background                             | editor.background           |
@@ -30,7 +57,7 @@ Developer: Inspect Editor Tokens and Scopes
 | Comment                                       | token - comment text        |
 | Constant                                      | token - constant            |
 | Character String Constant                     | token - "string"            |
-| Device                                        |                             |
+| Device                                        | token - entity.name.type    |
 | Global Label                                  | editor.foreground           |
 | Local Label                                   | editor.foreground           |
 | Standard / Safety Shared Global Label         |                             |
